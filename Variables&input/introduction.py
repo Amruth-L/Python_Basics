@@ -1,0 +1,6 @@
+name=input("enter your name:")
+age=int(input("enter your age:"))
+college=input("enter your college:")
+print("My name is",name)
+print("I am ",age,"years old")
+print("I study at",college)
