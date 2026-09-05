@@ -6,5 +6,3 @@ for num in range(2,31):
             break
     if is_prime:
         print(num)
-    else :
-        print(not num)
