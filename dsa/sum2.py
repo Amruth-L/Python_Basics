@@ -1,12 +1,16 @@
-arr=list(int(input("Enter the numbers:")).split())
-target=int(input("enter the target : "))
-seen={}
+arr = list(map(int, input("Enter numbers: ").split()))
+target = int(input("Enter target: "))
+
+seen = {}
+
 for num in arr:
-    complement=target-num
+    complement = target - num
+
     if complement in seen:
-        print("Pair:",complement,num)
+        print("Pair:", complement, num)
         break
 
-    seen[num]=1
+    seen[num] = 1
+
 else:
     print("No pair found")
